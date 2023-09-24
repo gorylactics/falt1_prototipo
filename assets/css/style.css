@@ -6,6 +6,10 @@
     --azul_cinco : #dcffff;
 }
 
+h1{
+    text-align: center;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -23,7 +27,7 @@ header{
 }
 
 header .titulo{
-    text-align: center;
+    /* text-align: center; */
     padding: 5vh 0 5vh 0 ;
     color: whitesmoke;
 }
@@ -32,9 +36,10 @@ header > .log_in{
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	align-content: center;
+	
 }
 
 article{
@@ -58,10 +63,16 @@ form{
     padding: 5vh 0 5vh 0;
     border-radius: 20px;
     border: solid 3px var(--azul_cuatro);
+    height: 105vh;
 }
 
 form > input{
     margin: 2vh 0 0 0;
+    
+}
+
+form > .calendario{
+    padding: 2.26vh 2vw 2.26vh 2vw;
 }
 form > .checkbox{
     margin: 2vh 0 2vh 0;
@@ -70,7 +81,9 @@ form > .checkbox{
     color: whitesmoke;
     border-radius: 10px;
 }
-
+form > .checkbox >p{
+    text-align: center;
+}
 footer{
     padding: 5vh;
     background-color: var(--azul_tres);
