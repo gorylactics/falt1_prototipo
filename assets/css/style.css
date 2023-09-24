@@ -42,6 +42,17 @@ header > .log_in{
 	
 }
 
+/* header > .log_in{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: center;
+	
+} */
+
+
 article{
     padding: 5vh 0 5vh 0;
 }
@@ -72,7 +83,7 @@ form > input{
 }
 
 form > .calendario{
-    padding: 2.26vh 2vw 2.26vh 2vw;
+    padding: 0.5vh 1.99vw 0.5vh 1.99vw;
 }
 form > .checkbox{
     margin: 2vh 0 2vh 0;
@@ -84,9 +95,13 @@ form > .checkbox{
 form > .checkbox >p{
     text-align: center;
 }
+
+form > a{
+    margin: 20px;
+}
 footer{
     padding: 5vh;
-    background-color: var(--azul_tres);
+    background-color: #191919;
 }
 
 footer > div > div > h2{

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,12 +12,12 @@
 
 <body>
     <header class="container__fluid">
-        <div class="row log_in" >
+        <div class="row log_in">
             <div class="col">
                 <h1 class="titulo">Fa1ta</h1>
                 <!-- <h1>Fa1ta</h1> -->
             </div>
-            <div class="col ingreso">
+            <div class="col">
                 <label for="log_in_usuario">Usuario</label>
                 <input type="email" name="log_in_usuario" id="log_in_usuario">
                 <label for="pass_usuario">Contraseña</label>
@@ -28,12 +28,14 @@
     <article class="container">
         <div class="row">
             <section class="col-md-12 col-lg-12 col-xxl-12">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sit obcaecati ratione dolor tenetur reprehenderit eos maxime, dignissimos veniam pariatur ex neque? Pariatur magnam, reprehenderit placeat cupiditate aut vel laboriosam.
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sit obcaecati ratione dolor tenetur
+                    reprehenderit eos maxime, dignissimos veniam pariatur ex neque? Pariatur magnam, reprehenderit
+                    placeat cupiditate aut vel laboriosam.
                 </p>
             </section>
             <section class="col-md-12 col-lg-6 col-xxl-6">
                 <h2 class="sub_titulo">Registro Jugador</h2>
-                <form action="./pages/perfil_usuario.html" method="post">
+                <form>
                     <input type="text" name="nombre" id="" placeholder="Nombre">
                     <input type="text" name="apellido" id="" placeholder="Apellido">
                     <input type="text" name="run" id="" placeholder="Run">
@@ -61,12 +63,15 @@
                             <option value="no_indica">Prefiero no decirlo</option>
                         </optgroup>
                     </select>
-                    <input type="submit" value="registrar" name="registrar">
+                    <!-- <input type="submit" value="registrar" name="registrar" class="btn btn-outline-primary"> -->
+                    <a href="./pages/perfil_usuario.html" class="btn btn-outline-primary">Registrar</a>
                 </form>
             </section>
             <section class="col-md-12 col-lg-6 col-xxl-6">
                 <h2 class="sub_titulo">Registro centro deportivo</h2>
-                <form action="./pages/perfil_usuario.html" method="post">
+                <!-- <form action="./pages/perfil_usuario.html" method="post"> -->
+                <!-- <form action="./pages/perfil_centro_deportivo.html" method="post"> -->
+                    <form>
                     <input type="text" name="nombre" id="" placeholder="Nombre_comercial">
                     <input type="text" name="rut" id="" placeholder="Rut">
                     <input type="email" name="email" id="" placeholder="Email">
@@ -95,7 +100,8 @@
                         <input type="checkbox" name="otro" id="">
                         <label for="otro">Otro</label>
                     </div>
-                    <input type="submit" value="registrar" name="registrar">
+                    <!-- <input type="submit" value="registrar" name="registrar" class="btn btn-outline-primary"> -->
+                    <a href="./pages/perfil_centro_deportivo.html" class="btn btn-outline-primary">Registrar</a>
                 </form>
             </section>
         </div>
