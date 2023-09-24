@@ -37,7 +37,7 @@ a{
 }
 
 *{
-    outline: 1.7px dotted greenyellow; 
+    /* outline: 1.7px dotted greenyellow;  */
 }
 body{
     margin: 0;
@@ -170,6 +170,7 @@ ul{
 
 .comentarios{
     width: 80vw;
+    
 }
 
 .plantilla_comentario{
@@ -178,6 +179,8 @@ ul{
     margin-top: 20px;
     margin-bottom: 10px;
     border-radius: 25px;
+    box-shadow: inset 6px 6px 20px -1px #5086c1,
+        inset -6px -6px 20px -1px #5086c1;
 }
 
 .hearder_comentario{
