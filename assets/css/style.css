@@ -1,0 +1,40 @@
+:root{
+    --azul_uno : #5086c1;
+    --azul_dos : #6a9eda;
+    --azul_tres: #84b6f4;
+    --azul_cuatro: #b2dafa;
+    --azul_cinco : #dcffff;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--azul_uno);
+}
+
+header{
+    background-color: var(--azul_dos);
+}
+
+header .titulo{
+    text-align: center;
+    padding: 5vh;
+    color: whitesmoke;
+}
+
+.sub_titulo{
+    text-align: center;
+    padding: 5vh;
+    color: whitesmoke;
+}
+
+.formularios{
+    background-color: var(--azul_tres);
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
